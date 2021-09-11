@@ -249,6 +249,6 @@ Az eredmények az alábbi mappában találhatók.
 ## Vizualizációk és a hibafüggvények megvalósítása csak az On-ball adatokra
 Kiválasztottam egy-egy konkrét példát az olyen meccsek közül amikor nagyon rossz hatékonysággal találtuk el markers alapján azt, hogy melyik játékos melyik klaszterbe kerül (3 klaszter esetén 60%, 4 klaszter esetén 30% a minimum), majd felrajzoltam egy pályarajzra egy pályarajzra a markers és az on-ball fitness átlagos pozikat is, mindkét esetben balról-jobbra támadva. Két különböző színnel jelöltem a markers és fitness pontokat, ezután berajzoltam rájuk a 3 klaszteres meccs esetében a védővonalakat, markerst és fitnesst is, ugyanazzal a színnel, mint a pontokat. A 4 klaszteres esetben pedig a 4 védővonalat jelenítettem meg a pontokkal. 
 
-![30% -os hatékonysággal találtuk el a markers adatok alapján, hogy melyik játékos melyik klaszterbe kerül, 4klaszter esetében(ez volt a legalacsonyabb)](Pics/.png)
+![30% -os hatékonysággal találtuk el a markers adatok alapján, hogy melyik játékos melyik klaszterbe kerül, 4klaszter esetében](Pics/fitness_10_960996_kmeans_4_markers_red_fitness_blue.png)
 
-![60%-os hatékonysággal találtuk el a markers adatok alapján, hogy melyik játékos melyik klaszterbe kerül, 3 klaszter esetében (ez volt a legalacsonyabb)](Pics/.png)
+![60%-os hatékonysággal találtuk el a markers adatok alapján, hogy melyik játékos melyik klaszterbe kerül, 3 klaszter esetében](Pics/fitness_10_960996_kmeans_3_markers_red_fitness_blue.png)
