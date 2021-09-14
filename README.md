@@ -402,6 +402,8 @@ T_df_position_stat.loc['min_match_id'] = [T_df.match_id.iloc[T_df.Others.argmin(
 ```
 Először elkészítettem az összevont statisztikát a teljes adathalmazra, a 105 meccsre.
 ![105 meccsre lefuttatott posztonkénti eredmények](Pics/Posztonkenti_eredmenyek_105.PNG)
+
+
 Majd elkészítettem az összevont statisztikát a csak labdás játékhelyzetben lévő adatokra is.
 ![33 meccsre (on-ball adatok) lefuttatott posztonkénti eredmények](Pics/Posztonkenti_eredmenyek_33_onball.PNG)
 
