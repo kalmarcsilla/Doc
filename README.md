@@ -388,7 +388,7 @@ T1_T2_df["match_id"] = T1_T2_df["match_id"].astype(str)
 #T1_T2_df["match_id"] = result 
 T1_T2_df
 ```
-![Markers és Fitness adatok Eukleideszi távolsága minden posztra kiszámítva mindkét csapat esetében(részlet)](Pics/T1_T2_df.png)
+![Markers és Fitness adatok Eukleideszi távolsága minden posztra kiszámítva mindkét csapat esetében(részlet)](Pics/T1_T2_df.PNG)
 
 ```Python
 T_df_position_stat = T_df.describe()
@@ -401,9 +401,9 @@ T_df_position_stat.loc['max_match_id'] = [T_df.match_id.iloc[T_df.Others.argmax(
 T_df_position_stat.loc['min_match_id'] = [T_df.match_id.iloc[T_df.Others.argmin()],T_df.match_id.iloc[T_df.Szélsőhátvéd.argmin()],T_df.match_id.iloc[T_df.Belső_Hátvéd.argmin()],T_df.match_id.iloc[T_df.Szélső_Középpályás.argmin()],T_df.match_id.iloc[T_df.Belső_Középpályás.argmin()],T_df.match_id.iloc[T_df.Csatárok.argmin()],T_df.match_id.iloc[T_df.Szélső_Támadók.argmax()]]
 ```
 Először elkészítettem az összevont statisztikát a teljes adathalmazra, a 105 meccsre.
-![105 meccsre lefuttatott posztonkénti eredmények](Pics/Posztonkenti_eredmenyek_105.png)
+![105 meccsre lefuttatott posztonkénti eredmények](Pics/Posztonkenti_eredmenyek_105.PNG)
 Majd elkészítettem az összevont statisztikát a csak labdás játékhelyzetben lévő adatokra is.
-![33 meccsre (on-ball adatok) lefuttatott posztonkénti eredmények](Pics/Posztonkenti_eredmenyek_33_onball.png)
+![33 meccsre (on-ball adatok) lefuttatott posztonkénti eredmények](Pics/Posztonkenti_eredmenyek_33_onball.PNG)
 
 Az legenerált fájlok illetve az egyes posztokra kiszámított mutatók, az alábbi mappában találhatók.
 [Posztonkénti eredmények](Posztonkenti_eredmenyek)
