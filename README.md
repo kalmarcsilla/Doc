@@ -77,3 +77,4 @@ Monthly_Min_low_df.rename(columns = {'Low':'Monthly_min_low','Month':'Prev_Month
 Merged_df_v2 = Merged_df.merge(Monthly_Max_high_df, how='left', on=["Prev_Month"])
 Merged_df_v2 = Merged_df_v2.merge(Monthly_Min_low_df, how='left', on=["Prev_Month"])
 ```
+ ![A végső dataframe](pics/Final_DataFrame.PNG)
