@@ -14,7 +14,7 @@ df = df.set_index(pd.to_datetime(df['Date']))
 df = df.set_index(pd.to_datetime(df['Date']))
 ```
 
- ![Az összes meccs adatát tartalmazó dataframe](pics/Date_index.png)
+ ![Az összes meccs adatát tartalmazó dataframe](pics/Date_index.PNG)
 
  Létrehoztam egy previous_week oszlopot, ami alapján kiszámítottam a heti High maximumokat illetve heti Low minimumokat
 
