@@ -8,7 +8,7 @@ A táblázatban a teljesség igénye nélkül, a legfontosabb paraméterek a kö
 -	Karbonáttartalmom
 -	Porozitás
 -	Permeabilitás
-![A magadatokat tartalmazó táblázat](C:\Users\cpinternekalmar\Documents\Data Science\Algyo_code\magadatok_pics\tablazat.PNG)
+![A magadatokat tartalmazó táblázat](magadatok_pics\tablazat.PNG)
 
 # Elemzés lépései
 ## Adattisztítás
@@ -27,7 +27,7 @@ df_orig.plot(kind='scatter',x='Well',y='Ʃ Carbonate_cont')
 #Sorba rendeztem a porozitás értékek alapján az adatokat
 df_orig.nlargest(10, ['RCA_Porosity (sat.)'])
 ```
-![A 10legnagyobb porozitású magadat](C:\Users\cpinternekalmar\Documents\Data Science\Algyo_code\magadatok_pics\largest_porosity.png)
+![A 10legnagyobb porozitású magadat](magadatok_pics\largest_porosity.png)
 Ugyanezt a vizuális megjelenítést és sorbarendezést megismételtem a permeabilitás illetve a karbonáttartalom esetében is.
 
 Mivel nagyon sok 0 értéket tartalmazott a táblázat, így azokat a sorokat, ahol a porozitás és permeabilitás értéke is 0, kiszedtem.
@@ -46,9 +46,9 @@ ax.set_xlabel('Porosity (%)', fontsize=14)
 ax.legend(facecolor='white', fontsize=11)
 fig.tight_layout()
 ```
-![Porozitás-Permeabilitás crossplot](C:\Users\cpinternekalmar\Documents\Data Science\Algyo_code\magadatok_pics\Por_Perm_cp.png)
+![Porozitás-Permeabilitás crossplot](magadatok_pics\Por_Perm_cp.png)
 
 A cross ploton látható, hogy több esetben előfordul, hogy a permeabilitás értékek minusz értékeket vesznek fel. Ezeket az értékeket eltávolítottam az adatkészletből. E mellett az olyan adatpontok is eltávolításra kerültek, ahol ahol a porozitás értéke <=1, míg a permeabilitás értéke >=1 volt.  
 Így előállt a végső, tisztított adatbázis, amin az elemzéseket végeztük.
 
-![Porozitás-Permeabilitás crossplot](C:\Users\cpinternekalmar\Documents\Data Science\Algyo_code\magadatok_pics\cleaned_database.png)
+![Porozitás-Permeabilitás crossplot](magadatok_pics\cleaned_database.png)
