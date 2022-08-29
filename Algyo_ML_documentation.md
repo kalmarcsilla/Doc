@@ -176,7 +176,7 @@ plt.ylabel('Perm_log10',fontsize=14)
 plt.show()
 ```
 
-![Klaszterek megjelenítése](magadatok_pics/Clusters.PNG)
+![Klaszterek megjelenítése](magadatok_pics/clusters.PNG)
 
 ```Python
 # Define the clusters
